@@ -20,9 +20,15 @@ class Robot(val robotName: String) {
         println("Take bath at ${dayList.toString()} with water at temperature $bathingTemp!")
     }
 
-    fun packBag() {
-
-    }
+    /*fun packBag(timeTable: ArrayList<List<String>>) {
+        var dayList = arrayListOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+        for(j in 1..6) {
+            for (i in dayList) {
+                if (i == timeTable[j][0])
+                    println("Bag is packed according to the timetable ${timeTable[j].toString()} of the day $i!")
+            }
+        }
+    }*/
 
     fun cookFood() {
 
