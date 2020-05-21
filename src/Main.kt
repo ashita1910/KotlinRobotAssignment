@@ -15,6 +15,7 @@ fun main() {
         "Sambhar-Dosa"
     )
     robot.cookFoodForLunch(lunchList)
+    robot.ironClothes("Black Jeans and White T-shirt")
 }
 private fun setTimeTable(): ArrayList<List<String>> {
     var timeTableList = arrayListOf<List<String>>(arrayListOf<String>())
