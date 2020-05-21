@@ -15,8 +15,9 @@ class Robot(val robotName: String) {
         println("Coffee with milk is made at ${coffeeWithMilk.toString()} with ${coffeeIngredients.waterAmt} of water, ${coffeeIngredients.coffeeAmt} of coffee and $sugarAmt of sugar!")
     }
 
-    fun heatWater() {
-
+    fun heatWater(bathingTemp: String) {
+        var dayList = arrayListOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+        println("Take bath at ${dayList.toString()} with water at temperature $bathingTemp!")
     }
 
     fun packBag() {
