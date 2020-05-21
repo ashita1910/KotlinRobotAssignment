@@ -5,9 +5,9 @@ class Robot(val robotName: String) {
         println("Alarm is ringing at $time on ${dayList.toString()}!")
     }
 
-    /*data class CoffeeIngredients(var waterAmt : String, var coffeeAmt : String)
+    data class CoffeeIngredients(var waterAmt: String, var coffeeAmt: String)
 
-    fun makeCoffee(sugarAmt : String) {
+    /*fun makeCoffee(sugarAmt : String) {
         var blackCoffee = arrayListOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
         var coffeeWithMilk = arrayListOf("Saturday", "Sunday")
         val coffeeIngredients = CoffeeIngredients("1 Cup", "3 Spoons")
