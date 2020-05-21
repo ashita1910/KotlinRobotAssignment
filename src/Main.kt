@@ -4,6 +4,8 @@ fun main() {
     robot.makeCoffee("1 Spoon")
     robot.heatWater("112 degrees")
     robot.packBag(setTimeTable())
+    var breakfastList = arrayListOf("Poha", "Sandwich", "Fried Rice", "Cutlets", "Maggi", "Cornflakes")
+    robot.cookFoodForBreakfast(breakfastList)
 }
 
 private fun setTimeTable(): ArrayList<List<String>> {
