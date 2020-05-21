@@ -1,6 +1,8 @@
 fun main() {
-    val robot = Robot("Sam")
+    val robot = Robot("Samayra")
     println("____________________________________________________________________________________________________________________________________________________________________")
+    println("Hey, there. My name is Samayra and I will be your personal assistant!!")
+    println()
     robot.ringAlarm("7:00 A.M.")
     println()
     robot.makeCoffee("1 Spoon")
