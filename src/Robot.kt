@@ -7,13 +7,13 @@ class Robot(val robotName: String) {
 
     data class CoffeeIngredients(var waterAmt: String, var coffeeAmt: String)
 
-    /*fun makeCoffee(sugarAmt : String) {
+    fun makeCoffee(sugarAmt: String) {
         var blackCoffee = arrayListOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
         var coffeeWithMilk = arrayListOf("Saturday", "Sunday")
         val coffeeIngredients = CoffeeIngredients("1 Cup", "3 Spoons")
         println("Black Coffee is made at ${blackCoffee.toString()} with ${coffeeIngredients.waterAmt} of water, ${coffeeIngredients.coffeeAmt} of coffee and $sugarAmt of sugar!")
         println("Coffee with milk is made at ${coffeeWithMilk.toString()} with ${coffeeIngredients.waterAmt} of water, ${coffeeIngredients.coffeeAmt} of coffee and $sugarAmt of sugar!")
-    }*/
+    }
 
     fun heatWater() {
 
