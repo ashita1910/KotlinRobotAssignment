@@ -6,8 +6,16 @@ fun main() {
     robot.packBag(setTimeTable())
     var breakfastList = arrayListOf("Poha", "Sandwich", "Fried Rice", "Cutlets", "Maggi", "Cornflakes")
     robot.cookFoodForBreakfast(breakfastList)
+    var lunchList = arrayListOf(
+        "Stuffed Parantha",
+        "Rajma Chawal",
+        "Chole Bhature",
+        "Noodles with Manchurian",
+        "Idli-Sambhar",
+        "Sambhar-Dosa"
+    )
+    robot.cookFoodForLunch(lunchList)
 }
-
 private fun setTimeTable(): ArrayList<List<String>> {
     var timeTableList = arrayListOf<List<String>>(arrayListOf<String>())
     timeTableList.add(arrayListOf(" ", "8:00 - 9:00", "9:00 - 10:00", "10:00 - 11:00", "11:00 - 12:00", "12:00 - 1:00"))

@@ -34,10 +34,9 @@ class Robot(val robotName: String) {
         println("Breakfast cooked for today is ${breakfastFoodList.random()}!")
     }
 
-    /*fun cookFoodForLunch(LunchFoodList: List<String>){
+    fun cookFoodForLunch(LunchFoodList: List<String>) {
         println("Lunch cooked for today is ${LunchFoodList.random()}!")
-
-    }*/
+    }
 
     fun ironClothes() {
 
